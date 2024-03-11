@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+          
+            <h2>Registration</h2>
+            <div class="content">
+            <div class="input-box">
+                <label for="name "> Full Name</label>
+                <input type="text" placeholder="Enter Full Name" name="name" required>
+            </div>
+            <div class="input-box">
+                <label for="name "> Username</label>
+                <input type="text" placeholder="Enter User Name" name="name" required>
+            </div>
+            <div class="input-box">
+                <label for="name "> Email</label>
+                <input type="text" placeholder="Enter  Email" name="email" required>
+            </div>
+            <div class="input-box">
+                <label for="name "> Phone</label>
+                <input type="tel" placeholder="Enter phone Number" name="phone" required>
+            </div>
+            <div class="input-box">
+                <label for="name "> Password</label>
+                <input type="password" placeholder="Enter Password" name="password" required minlength="8">
+            </div>
+            <div class="input-box">
+                <label for="name "> Confirm</label>
+                <input type="password" placeholder="Enter Password Again" name="confirm" required minlength="8">
+            </div>
+        <span class="Referrer"> Referrer</span>
+        <div class="Ref" >
+            <input type="radio" name="Referrer" id="Tv">
+            <label for="Referrer"> TV</label>
+            <input type="radio" name="Referrer" id="Internet">
+            <label for="Referrer"> Internet</label>
+            <input type="radio" name="Referrer" id="None" checked>
+            <label for="Referrer"> None</label>
+        </div></div>
+        
+       <div class="alert">
+            <input type="checkbox" id="termsCheckbox" required>
+            <label for="termsCheckbox">I accept the terms of service</label>
+        </div>
+        
+        <div class="alert">
+            <p>By clicking "Accept", you agree to the storing of cookies on your device to enhance site navigation,analyze site usage and assiting i n our marketing. </p>
+        </div>
+        <div class="button-container">
+            <button type="submit">Register</button>
+        </div>
+        
+        </form>
+    </div>
+</body>
+
+</html>
